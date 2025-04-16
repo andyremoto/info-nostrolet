@@ -3,11 +3,11 @@ import { defineNuxtConfig } from "nuxt/config";
 export default defineNuxtConfig({
   ssr: false,
   nitro: {
-    preset: 'static',
-    serveStatic: true
-  },
-  experimental: {
-    payloadExtraction: false
+    preset: 'aws-amplify',
+    output: {
+      dir: '.amplify-hosting',
+      publicDir: '.amplify-hosting/static'
+    }
   },
   app: {
     head: {
