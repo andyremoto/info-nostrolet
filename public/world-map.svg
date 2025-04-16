@@ -1,0 +1,5 @@
+<svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+  <path d="M150 100 Q200 50 250 100 T350 100 T450 100" fill="none" stroke="#0088ff" stroke-width="2" />
+  <path d="M100 150 Q150 100 200 150 T300 150 T400 150" fill="none" stroke="#0088ff" stroke-width="2" />
+  <path d="M150 200 Q200 150 250 200 T350 200 T450 200" fill="none" stroke="#0088ff" stroke-width="2" />
+</svg>
