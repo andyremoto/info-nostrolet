@@ -1,7 +1,10 @@
 import { defineNuxtConfig } from "nuxt/config";
 
 export default defineNuxtConfig({
-  ssr: true,
+  ssr: false,
+  nitro: {
+    preset: 'static'
+  },
   app: {
     head: {
       title: 'Nostrolet - O Futuro da Propriedade Imobiliária',
