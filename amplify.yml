@@ -1,19 +1,18 @@
+# @format
+
 version: 1
 frontend:
   phases:
     preBuild:
       commands:
-        - npm install
+        - npm ci
     build:
       commands:
-        - npm run generate
-        - node amplify-manifest.js
+        - npm run build
   artifacts:
     baseDirectory: .output/public
     files:
-      - '**/*'
-    excludes:
-      - .git/**
+      - "**/*"
   cache:
     paths:
       - node_modules/**/*
