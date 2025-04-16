@@ -3,7 +3,11 @@ import { defineNuxtConfig } from "nuxt/config";
 export default defineNuxtConfig({
   ssr: false,
   nitro: {
-    preset: 'static'
+    preset: 'static',
+    serveStatic: true
+  },
+  experimental: {
+    payloadExtraction: false
   },
   app: {
     head: {
